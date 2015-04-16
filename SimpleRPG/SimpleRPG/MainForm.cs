@@ -8,9 +8,9 @@ using System.Windows.Forms;
 
 namespace SimpleRPG
 {
-    public partial class SimpleRPG : Form
+    public partial class MainForm : Form
     {
-        public SimpleRPG()
+        public MainForm()
         {
             InitializeComponent();
         }

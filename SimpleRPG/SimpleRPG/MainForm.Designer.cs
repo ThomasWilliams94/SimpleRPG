@@ -1,6 +1,6 @@
 ﻿namespace SimpleRPG
 {
-    partial class SimpleRPG
+    partial class MainForm
     {
         /// <summary>
         /// Required designer variable.
