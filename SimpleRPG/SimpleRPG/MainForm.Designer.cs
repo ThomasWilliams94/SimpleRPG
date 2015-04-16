@@ -30,12 +30,12 @@
         {
             this.SuspendLayout();
             // 
-            // SimpleRPG
+            // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(617, 601);
-            this.Name = "SimpleRPG";
+            this.ClientSize = new System.Drawing.Size(784, 762);
+            this.Name = "MainForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Simple RPG";
             this.ResumeLayout(false);
