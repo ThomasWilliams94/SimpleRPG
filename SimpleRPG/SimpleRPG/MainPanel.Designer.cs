@@ -46,39 +46,47 @@
             // 
             // itsDownButton
             // 
+            this.itsDownButton.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.itsDownButton.Location = new System.Drawing.Point(328, 652);
             this.itsDownButton.Name = "itsDownButton";
             this.itsDownButton.Size = new System.Drawing.Size(45, 45);
             this.itsDownButton.TabIndex = 5;
             this.itsDownButton.Text = "Down";
             this.itsDownButton.UseVisualStyleBackColor = true;
+            this.itsDownButton.Click += new System.EventHandler(this.ItsDownButton_Click);
             // 
             // itsUpButton
             // 
+            this.itsUpButton.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.itsUpButton.Location = new System.Drawing.Point(328, 554);
             this.itsUpButton.Name = "itsUpButton";
             this.itsUpButton.Size = new System.Drawing.Size(45, 45);
             this.itsUpButton.TabIndex = 8;
             this.itsUpButton.Text = "Up";
             this.itsUpButton.UseVisualStyleBackColor = true;
+            this.itsUpButton.Click += new System.EventHandler(this.ItsUpButton_Click);
             // 
             // itsLeftButton
             // 
+            this.itsLeftButton.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.itsLeftButton.Location = new System.Drawing.Point(277, 604);
             this.itsLeftButton.Name = "itsLeftButton";
             this.itsLeftButton.Size = new System.Drawing.Size(45, 45);
             this.itsLeftButton.TabIndex = 6;
             this.itsLeftButton.Text = "Left";
             this.itsLeftButton.UseVisualStyleBackColor = true;
+            this.itsLeftButton.Click += new System.EventHandler(this.ItsLeftButton_Click);
             // 
             // itsRightButton
             // 
+            this.itsRightButton.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.itsRightButton.Location = new System.Drawing.Point(379, 604);
             this.itsRightButton.Name = "itsRightButton";
             this.itsRightButton.Size = new System.Drawing.Size(45, 45);
             this.itsRightButton.TabIndex = 7;
             this.itsRightButton.Text = "Right";
             this.itsRightButton.UseVisualStyleBackColor = true;
+            this.itsRightButton.Click += new System.EventHandler(this.ItsRightButton_Click);
             // 
             // MainPanel
             // 

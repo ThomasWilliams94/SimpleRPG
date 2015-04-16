@@ -26,5 +26,33 @@ namespace SimpleRPG
             itsGameBoardPanel.Controls.Add(itsGameBoard);
 
         }
+
+        private void ItsUpButton_Click(object sender, EventArgs e)
+        {
+            itsGameBoard.CurrentPositionY -= itsGameBoard.CellSeparation;
+
+            itsGameBoard.Refresh();
+        }
+
+        private void ItsRightButton_Click(object sender, EventArgs e)
+        {
+            itsGameBoard.CurrentPositionX += itsGameBoard.CellSeparation;
+
+            itsGameBoard.Refresh();
+        }
+
+        private void ItsDownButton_Click(object sender, EventArgs e)
+        {
+            itsGameBoard.CurrentPositionY += itsGameBoard.CellSeparation;
+
+            itsGameBoard.Refresh();
+        }
+
+        private void ItsLeftButton_Click(object sender, EventArgs e)
+        {
+            itsGameBoard.CurrentPositionX -= itsGameBoard.CellSeparation;
+
+            itsGameBoard.Refresh();
+        }
     }
 }
