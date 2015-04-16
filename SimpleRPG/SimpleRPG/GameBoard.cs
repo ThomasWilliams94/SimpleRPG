@@ -71,6 +71,14 @@ namespace SimpleRPG
             }
         }
 
+        public float CellSeparation
+        {
+            get
+            {
+                return itsCellSeparation;
+            }
+        }
+
         #endregion
 
         #region Private Methods
