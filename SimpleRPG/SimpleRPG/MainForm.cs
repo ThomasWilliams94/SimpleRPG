@@ -10,9 +10,21 @@ namespace SimpleRPG
 {
     public partial class MainForm : Form
     {
+
+        #region Members
+
+        MainPanel itsMainPanel;
+
+        #endregion
+
         public MainForm()
         {
             InitializeComponent();
+
+            itsMainPanel = new MainPanel();
+            itsMainPanel.Dock = DockStyle.Fill;
+
+            this.Controls.Add(itsMainPanel);
         }
     }
 }

@@ -29,36 +29,36 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(GameBoard));
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.itsBackground = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.itsBackground)).BeginInit();
             this.SuspendLayout();
             // 
-            // pictureBox1
+            // itsBackground
             // 
-            this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.InitialImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.InitialImage")));
-            this.pictureBox1.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(480, 480);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
+            this.itsBackground.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.itsBackground.Image = ((System.Drawing.Image)(resources.GetObject("itsBackground.Image")));
+            this.itsBackground.InitialImage = ((System.Drawing.Image)(resources.GetObject("itsBackground.InitialImage")));
+            this.itsBackground.Location = new System.Drawing.Point(0, 0);
+            this.itsBackground.Name = "itsBackground";
+            this.itsBackground.Size = new System.Drawing.Size(480, 480);
+            this.itsBackground.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.itsBackground.TabIndex = 0;
+            this.itsBackground.TabStop = false;
             // 
             // GameBoard
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.itsBackground);
             this.Name = "GameBoard";
             this.Size = new System.Drawing.Size(480, 480);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.itsBackground)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox itsBackground;
     }
 }

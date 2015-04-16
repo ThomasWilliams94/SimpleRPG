@@ -10,9 +10,21 @@ namespace SimpleRPG
 {
     public partial class MainPanel : UserControl
     {
+        #region Members
+
+        GameBoard itsGameBoard;
+
+        #endregion
+
         public MainPanel()
         {
             InitializeComponent();
+
+            itsGameBoard = new GameBoard();
+            itsGameBoard.Location = new Point(10, 10);
+
+            itsGameBoardPanel.Controls.Add(itsGameBoard);
+
         }
     }
 }
