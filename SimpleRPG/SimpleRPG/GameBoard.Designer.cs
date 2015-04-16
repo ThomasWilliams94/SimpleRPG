@@ -44,6 +44,7 @@
             this.itsBackground.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.itsBackground.TabIndex = 0;
             this.itsBackground.TabStop = false;
+            this.itsBackground.Paint += new System.Windows.Forms.PaintEventHandler(this.ItsBackground_Paint);
             // 
             // GameBoard
             // 
@@ -52,6 +53,7 @@
             this.Controls.Add(this.itsBackground);
             this.Name = "GameBoard";
             this.Size = new System.Drawing.Size(480, 480);
+            this.Paint += new System.Windows.Forms.PaintEventHandler(this.GameBoard_Paint);
             ((System.ComponentModel.ISupportInitialize)(this.itsBackground)).EndInit();
             this.ResumeLayout(false);
 

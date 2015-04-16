@@ -12,7 +12,7 @@ namespace SimpleRPG
     {
         #region Members
 
-        GameBoard itsGameBoard;
+        private GameBoard itsGameBoard;
 
         #endregion
 

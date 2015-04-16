@@ -13,7 +13,7 @@ namespace SimpleRPG
 
         #region Members
 
-        MainPanel itsMainPanel;
+        private MainPanel itsMainPanel;
 
         #endregion
 
